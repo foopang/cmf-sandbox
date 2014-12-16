@@ -1,5 +1,7 @@
 #!/bin/bash
 
-composer install --prefer-source
+composer update
+
+cat composer.lock
 
 ./vendor/jackalope/jackalope-jackrabbit/bin/jackrabbit.sh
